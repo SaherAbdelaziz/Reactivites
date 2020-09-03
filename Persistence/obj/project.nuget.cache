@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "126vCLS5SJjDcFrzhetx7r1rKcU5/zPL3o+vznswx8Ly5adDH0a7IWoQnQfWYYTqcmlaiGuIe7ph6tjPbGxOUQ==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\SmallSocialSite\\Reactivites\\Persistence\\Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ABTechDev04\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ABTechDev04\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

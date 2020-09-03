@@ -1,0 +1,12 @@
+D:\projects\SmallSocialSite\Reactivites\Persistence\bin\Debug\netstandard2.0\Persistence.deps.json
+D:\projects\SmallSocialSite\Reactivites\Persistence\bin\Debug\netstandard2.0\Persistence.dll
+D:\projects\SmallSocialSite\Reactivites\Persistence\bin\Debug\netstandard2.0\Persistence.pdb
+D:\projects\SmallSocialSite\Reactivites\Persistence\bin\Debug\netstandard2.0\Domain.dll
+D:\projects\SmallSocialSite\Reactivites\Persistence\bin\Debug\netstandard2.0\Domain.pdb
+D:\projects\SmallSocialSite\Reactivites\Persistence\obj\Debug\netstandard2.0\Persistence.csprojAssemblyReference.cache
+D:\projects\SmallSocialSite\Reactivites\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CoreCompileInputs.cache
+D:\projects\SmallSocialSite\Reactivites\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfoInputs.cache
+D:\projects\SmallSocialSite\Reactivites\Persistence\obj\Debug\netstandard2.0\Persistence.AssemblyInfo.cs
+D:\projects\SmallSocialSite\Reactivites\Persistence\obj\Debug\netstandard2.0\Persistence.csproj.CopyComplete
+D:\projects\SmallSocialSite\Reactivites\Persistence\obj\Debug\netstandard2.0\Persistence.dll
+D:\projects\SmallSocialSite\Reactivites\Persistence\obj\Debug\netstandard2.0\Persistence.pdb

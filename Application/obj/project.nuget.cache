@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iJaesyWLY4rB881IQ+sbs/IvWGtq5ifoQSkATT2S6jIMBqAs1B//dCkytpEWi+HRwIqysGcbcFc2XEr2vKPJOw==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\SmallSocialSite\\Reactivites\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ABTechDev04\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ABTechDev04\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
