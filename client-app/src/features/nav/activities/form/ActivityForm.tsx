@@ -7,6 +7,7 @@ interface IProps {
   activity: IActivity;
   createActivity: (activity: IActivity) => void;
   editActivity: (activity: IActivity) => void;
+  submmiting: boolean;
 }
 
 export const ActivityForm: React.FC<IProps> = ({
@@ -14,6 +15,7 @@ export const ActivityForm: React.FC<IProps> = ({
   activity: initialFormState,
   createActivity,
   editActivity,
+  submmiting,
 }) => {
   const initializeForm = () => {
     if (initialFormState) return initialFormState;
@@ -113,7 +115,12 @@ export const ActivityForm: React.FC<IProps> = ({
             content="Cancel"
           />
           <Button.Or />
-          <Button positive type="submit" content="Submit" />
+          <Button
+            loading={submmiting}
+            positive
+            type="submit"
+            content="Submit"
+          />
         </Button.Group>
       </Form>
     </Segment>
