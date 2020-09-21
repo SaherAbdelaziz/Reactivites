@@ -84,7 +84,7 @@ export const ActivityForm: React.FC<IProps> = ({
           <input
             onChange={handleInputChange}
             name="date"
-            type="date"
+            type="datetime-local"
             placeholder="Date"
             value={activity.date}
           />

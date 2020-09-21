@@ -18,6 +18,7 @@ const App = () => {
 
   const handleSelectedActivity = (id: string) => {
     SetSelectedActivity(activities.filter((a) => a.id === id)[0]);
+    setEditMode(false);
   };
 
   const handleOpenCreateForm = () => {
@@ -40,12 +41,23 @@ const App = () => {
     setEditMode(false);
   };
 
+  const handleDeleteActivity = (id: string) => {
+    Setactivities([...activities.filter((a) => a.id !== id)]);
+  };
+
   useEffect(() => {
     axios
       .get<IActivity[]>("http://localhost:5000/api/Activities")
       .then((response) => {
+        let activities: IActivity[] = [];
+
+        response.data.forEach((activity) => {
+          activity.date = activity.date.split(".")[0];
+          activities.push(activity);
+        });
+
         console.log(response);
-        Setactivities(response.data);
+        Setactivities(activities);
       });
   }, []);
 
@@ -62,6 +74,7 @@ const App = () => {
           SetSelectedActivity={SetSelectedActivity}
           createActivity={handleCreateActivity}
           editActivity={handleEditActivity}
+          deleteActivity={handleDeleteActivity}
         />
       </Container>
     </Fragment>

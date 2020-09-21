@@ -14,6 +14,7 @@ interface IProps {
   SetSelectedActivity: (activity: IActivity | null) => void;
   createActivity: (activity: IActivity) => void;
   editActivity: (activity: IActivity) => void;
+  deleteActivity: (id: string) => void;
 }
 
 export const ActivityDashBoard: React.FC<IProps> = ({
@@ -25,11 +26,16 @@ export const ActivityDashBoard: React.FC<IProps> = ({
   SetSelectedActivity,
   createActivity,
   editActivity,
+  deleteActivity,
 }) => {
   return (
     <Grid>
       <Grid.Column width={10}>
-        <ActivityList activities={activities} selectActivity={selectActivity} />
+        <ActivityList
+          activities={activities}
+          selectActivity={selectActivity}
+          deleteActivity={deleteActivity}
+        />
       </Grid.Column>
 
       <Grid.Column width={6}>
@@ -42,6 +48,7 @@ export const ActivityDashBoard: React.FC<IProps> = ({
         )}
         {editMode && (
           <ActivityForm
+            key={(selectedActivity && selectedActivity.id) || 0}
             setEditMode={setEditMode}
             activity={selectedActivity!}
             createActivity={createActivity}
